@@ -19,47 +19,37 @@ The project was developed as part of the **ITP (Information Technology Project)*
 - **Jithushan P.**
 
 ---
+### 🛠️ My Contribution – Tharmika N.
 
-## 🛠️ My Contribution – Sajivan K.
-
-I was primarily responsible for **Farmer & Product Management** and the **Payment Gateway integration**.  
-My role ensured that farmers had full control over their products, consumers had a seamless shopping experience, and transactions were secure and transparent.  
-
-### 🔑 Modules I Developed
-
-#### 1. Farmer Management
-- **Farmer Registration & Verification**  
-  - Farmers can register with farm details, upload documents, and verify via OTP.  
-- **Product Management (CRUD)**  
-  - Add, edit, and delete products with details like name, description, price, stock, category, and images.  
-- **QR Code Generation**  
-  - Each product automatically generates a QR code.  
-  - Consumers can scan the QR code to view farmer details, product origin, and authenticity.  
-- **Subscription Packages**  
-  - Farmers can create recurring delivery packages (weekly/monthly).  
-  - Provides stable income for farmers and convenience for consumers.  
-- **Analytics Dashboard**  
-  - Track sales, order history, income summaries, and product performance.
-
-#### 2. Payment Gateway
-- **Secure Transactions**  
-  - Integrated OTP-based and email-verified payments.  
-  - Supports multiple methods: card, wallet, bank transfer, and cash-on-delivery.  
-- **Order-Linked Payments**  
-  - Payments tied directly to specific order IDs for transparency.  
-- **PDF Invoices**  
-  - Auto-generated receipts sent via email and downloadable from the dashboard.  
-- **Notifications**  
-  - Real-time updates to farmers and consumers about orders, payments, and delivery status.
+I was primarily responsible for the **Order Management System**, ensuring smooth customer ordering, tracking, and search convenience.  
+My work allowed consumers to easily place, manage, and repeat their orders while giving farmers a transparent system for handling order fulfillment.
 
 ---
 
-### 💡 Innovations I Contributed
-- **QR Code Transparency** → Built trust by linking every product to farmer and product details.  
-- **Subscription-Based Sales Model** → Enabled recurring income for farmers and reliable fresh produce for consumers.  
-- **AI-Powered Chatbot Support** → Assisted farmers with farming queries and product management (multilingual, including Tamil).  
-- **Email Notification System** → Automated updates for order confirmations, payments, and delivery tracking using Nodemailer + Brevo.  
+#### 🔑 Modules I Developed
 
+**Order Management**
+- **Order Placement**: Customers can place orders with selected products, quantities, and payment methods.  
+- **Order Tracking**: Real-time updates on order status (Pending → Confirmed → Out for Delivery → Completed).  
+- **Order History**: Consumers can view and re-order from past purchases.  
+- **Cancellation Handling**: Provided an option to cancel orders before processing.  
+
+**Search & Filter System**
+- **Recipe Search**: Customers can find products by recipes that use them.  
+- **List Search**: Customers can build shopping lists and search by those lists.  
+- **Permanent Lists**: Customers can save lists for future use, making recurring shopping faster and more convenient.  
+
+**Integration with Other Systems**
+- **Payment Gateway Linkage**: Each order is tied to its payment ID for transparency.  
+- **Email Notifications**: Automated updates to farmers and customers on order confirmations, cancellations, and delivery status.  
+
+---
+
+#### 💡 Innovations I Contributed
+- **Smart Search with Permanent Lists** → Reduced effort for repeat customers by letting them save and reuse lists.  
+- **Recipe-Based Search** → Helped customers discover products through cooking ideas.  
+- **Seamless Order Lifecycle** → Created an intuitive flow from cart to delivery.  
+- **Transparent Order Tracking** → Kept both farmers and customers updated in real time.  
 ---
 
 ## 🚀 Tech Stack
